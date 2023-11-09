@@ -14,6 +14,7 @@ height: 30vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .input{
@@ -21,6 +22,27 @@ height: 30vh;
     font-size: 160%;
     text-align: center;
     letter-spacing: 4px;
+    display: none;
+}
+.input-entrada{
+    width: 99%;
+    font-size: 160%;
+    text-align: center;
+    letter-spacing: 4px;
+    
+
+}
+
+.reloj{
+    font-size: 150%;
+}
+
+.puntaje{
+    font-size: 150%;
+    
+}
+.dis-block{
+    display: block;
 }
 
 .tablero{
@@ -31,4 +53,14 @@ height: 30vh;
 }
 .resultado{
     font-size: 185%;
+    
+}
+
+.ganadas{
+    font-size: 185%;
+}
+
+
+.errores{
+    color: red;
 }

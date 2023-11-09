@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-principal{
+height: 50vh;
+}
+
+.contenedor{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    font-size: 2.8em;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.tablero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+}
+.resultado{
+    font-size: 2.5em;
+}

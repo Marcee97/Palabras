@@ -5,7 +5,7 @@
 }
 
 .section-principal{
-height: 50vh;
+height: 30vh;
 }
 
 .contenedor{
@@ -17,8 +17,8 @@ height: 50vh;
 }
 
 .input{
-    width: 100%;
-    font-size: 2.8em;
+    width: 99%;
+    font-size: 160%;
     text-align: center;
     letter-spacing: 4px;
 }
@@ -30,5 +30,5 @@ height: 50vh;
     padding: 1em;
 }
 .resultado{
-    font-size: 2.5em;
+    font-size: 185%;
 }

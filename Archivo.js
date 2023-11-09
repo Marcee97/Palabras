@@ -26,7 +26,7 @@ let escribiendo = false;
 
 inputInicio.addEventListener("keyup",()=>{
 
-  if(inputInicio.value === "inicio"){
+  if(inputInicio.value.toLowerCase() === "inicio".toLowerCase()){
     contador++
     resultado.textContent = palabras[contador]
     input.classList.add("dis-block")
@@ -83,6 +83,7 @@ function error(num1){
 if(num1 === "Mal escrita"){
   errores.textContent = num1
   errores.style.color = "red"
+  errores.style.marginLeft = '75%'
  
 
   
@@ -96,6 +97,7 @@ if(num1 === "Mal escrita"){
   errores.style.color = "green"
   errores.style.fontWeight = "bold"
   errores.style.fontSize = "145%"
+  errores.style.marginLeft = '68%'
   setTimeout(()=>{
     errores.textContent = ""
     errores.style.fontWeight = "100"
